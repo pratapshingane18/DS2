@@ -29,5 +29,7 @@ int main(){
     cout<<endl;
 
     cout<<R1.length<<endl<<R1.breath<<endl<<R1.x<<endl;
+
+    
     return 0;
 }
