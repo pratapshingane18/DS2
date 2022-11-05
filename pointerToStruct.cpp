@@ -13,11 +13,14 @@ int main(){
     cout<<r.length<<endl;
     cout<<r.breath<<endl;
 
+    // for normal variable use . operator 
+
     Rect *p = &r;
     cout<<p->length<<endl;
     cout<<p->breath<<endl;
 
-
+    // for pointer use -> operator
+    
 
     return 0;
 }

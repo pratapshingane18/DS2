@@ -1,5 +1,11 @@
 #include<iostream>
 using namespace std;
+
+// In the program below values are passed by value 
+// changes made in add function is not reflecting in main function
+// Call by values is best used when the functon made just takes the value and return some result
+
+
 int add(int a, int b){
 
     // int c = a + b;

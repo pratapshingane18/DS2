@@ -19,6 +19,13 @@ struct Rect *fun(){
     return p;
 }
 
+
+// obj is not created by main fucntion it is created by fun fucntion and taken by main function
+// Returning a pointer to a structure
+
+
+
+
 int main(){
 
     struct Rect *ptr=fun();

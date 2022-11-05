@@ -14,7 +14,7 @@ struct Rect{
 // Function taking struct as parameter 
 
 void fun(struct Rect *rt){
-    rt->length =20; // values are not changes in main fucntion
+    rt->length =20; // values are changed in main fucntion
     cout<<rt->length<<endl<<rt->breath<<endl;
 
 }

@@ -20,7 +20,9 @@ void func(int *A, int n){
     */
 
    A[0] = 15;
+   // The values will also change in the actual main function as we are using pointers
    
+
     
 
 }

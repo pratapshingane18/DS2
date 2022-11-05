@@ -20,7 +20,7 @@ int main(){
     int A[] = {2,4,6,8,10};
     int n =5;
     func(A);
-    cout<<sizeof(A)/sizeof(int)<<endl;
+    cout<<sizeof(A)/sizeof(int)<<endl; 
     for(int x:A)
     cout<<x<<" ";
 

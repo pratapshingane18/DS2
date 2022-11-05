@@ -1,3 +1,5 @@
+// passing by value in the following example
+
 #include<iostream>
 using namespace std;
 
@@ -10,9 +12,9 @@ struct Rect{
 
 // Function taking struct as parameter 
 
-void fun(struct Rect r){
-    r.length =20;
-    cout<<r.length<<endl<<r.breath<<endl;
+void fun(struct Rect rt){
+    rt.length =20; // values are not changes in main fucntion
+    cout<<rt.length<<endl<<rt.breath<<endl;
 
 }
 

@@ -1,3 +1,16 @@
+
+/*
+• Here the address of actual parameters are passed to formal
+parameter and formal parameters must be pointers
+• Any changes done inside function will modify the actual parameters
+
+• One function cannot access value of another function directly but it
+can access it indirectly through pointers
+• Thus call by address is a suitable mechanism for modifying actual
+parameters
+
+*/
+
 #include<iostream>
 using namespace std;
 
