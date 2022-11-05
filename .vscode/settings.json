@@ -5,6 +5,8 @@
         "fstream": "cpp",
         "optional": "cpp",
         "tuple": "cpp",
-        "type_traits": "cpp"
+        "type_traits": "cpp",
+        "string_view": "cpp",
+        "random": "cpp"
     }
 }
